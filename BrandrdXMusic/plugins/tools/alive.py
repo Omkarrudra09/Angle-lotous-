@@ -18,12 +18,12 @@ async def start(client: Client, message: Message):
                 text="✯ ᴍᴀᴀʟɪᴋ 🌹 ", url=f"https://t.me/Rudra0_9_1"
             ),
             InlineKeyboardButton(
-                text="✯ ɢʀᴏᴜᴘ 🌹", url=f"https://t.me/friends_chat_groupz"
+                text="✯ ɢʀᴏᴜᴘ 🌹", url=f"https://t.me/+RtUqDA64VSE1MzM1"
             ),
         ],
                 [
             InlineKeyboardButton(
-                text="✯ sɪsᴛᴇʀ's ɢʀᴏᴜᴘ 🌹", url=f"https://t.me/F_I_R_group"
+                text="✯ ɢʀᴏᴜᴘ 🌹", url=f"https://t.me/+RtUqDA64VSE1MzM1"
             ),
                 ],
                 [
