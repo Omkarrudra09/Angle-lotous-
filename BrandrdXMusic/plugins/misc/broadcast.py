@@ -20,12 +20,12 @@ from config import adminlist
 IS_BROADCASTING = False
 
 
-@app.on_message(filters.command("broadcast"))
+@app.on_message(filters.command("bcast"))
 @language
 async def braodcast_message(client, message, _):
     if message.from_user.id != OWNER_ID:
         return await message.reply_text(
-            "» **ᴋʏ ʀᴇ ʙᴏsᴅᴋ ᴛᴇʀᴀ ᴀᴜᴋᴀᴛ ʙʜᴜʟ ɢʀʏᴀ ᴛᴜ ʜᴀᴅ ᴍᴇ ʀᴇʜ **\n» ᴍᴇssᴀɢᴇ ᴋʀ @Rudra0_9_1 ᴘᴀɪᴅ ᴘʀᴏᴍᴏ ᴋᴇ ʟɪʏᴇ "
+            "» ** boardcast Not Available **"
         )
     global IS_BROADCASTING
     if message.reply_to_message:
